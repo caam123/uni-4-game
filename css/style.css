@@ -6,7 +6,7 @@ body{
     font-family: "Rubik", Sans-serif;
     color:white;
     font-size: 20px;
-    background: linear-gradient(135deg, rgb(0, 59, 80) 0%, rgb(0, 11, 65) 19%, rgb(4, 0, 32) 49%, rgb(46, 0, 73) 100%);
+    background: linear-gradient(135deg, rgb(0, 58, 54) 0%, rgb(0, 55, 75) 19%, rgb(7, 0, 31) 49%, rgb(46, 0, 73) 100%);
 }
 
 nav{
@@ -41,12 +41,15 @@ nav{
     font-weight: 300;
 }
 
-ul{
+ol{
     padding:.25em;
     font-size: .75em;
+    font-weight: 100;
+    padding-left: 1em;
 }
-ul li{
-    list-style-type: none;
+ol li{
+    line-height: 2;
+    
 }
 
 
@@ -87,4 +90,20 @@ ul li{
     width:22%;
     min-height: 6em;
 
+}
+
+img{
+    width: 100%;
+}
+
+
+
+
+/* --------- MEDIA QUERIES -------- */
+
+@media  screen and (max-width:468px){
+    .flex-25{
+        width:48%;
+        margin-bottom: 1em;
+    }
 }
