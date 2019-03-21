@@ -6,7 +6,7 @@ body{
     font-family: "Rubik", Sans-serif;
     color:white;
     font-size: 20px;
-    background-color: rgb(48, 43, 43);
+    background: linear-gradient(135deg, rgb(0, 59, 80) 0%, rgb(0, 11, 65) 19%, rgb(4, 0, 32) 49%, rgb(46, 0, 73) 100%);
 }
 
 nav{
