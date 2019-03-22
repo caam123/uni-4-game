@@ -138,7 +138,7 @@ ol li{
 }
 
 #piedra-1:active{
-    box-shadow: -1px 0px 20px #8dffa7;z
+    box-shadow: -1px 0px 20px #8dffa7;
 }
 
 #piedra-2:active{
@@ -151,6 +151,11 @@ ol li{
 
 #piedra-4:active{
     box-shadow: -1px 0px 20px #ffd76b;
+}
+
+.flex-25:active{
+    border:none;
+    border-radius: 15px;
 }
 
 
