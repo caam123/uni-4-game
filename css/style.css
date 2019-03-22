@@ -32,7 +32,7 @@ nav{
 }
 
 .row{
-    margin-bottom: 1.8em;
+    margin-bottom: 1em;
 }
 
 .main-title h1{
@@ -83,18 +83,83 @@ ol li{
 
 }
 
+/* ---- SCORE WIN LOSS ---------*/
+.flex-winloss{
+    display:flex;
+    flex-flow: row nowrap;
+    width:100%;
+    justify-content: space-between;
+    color:whitesmoke;
+}
+
+.scorewinloss{
+    width:22%;
+    font-size: .75em;
+    padding:.25em;
+    border: 1px solid whitesmoke;
+    margin-left: .5em;
+    flex: 0 1 auto;
+    padding:0.5em;
+    text-align:center;
+}
+
+.scorewinloss p{
+    margin:0;
+    letter-spacing: .25em;
+    font-weight: 100;
+}
+
+
+
+.marcador00{
+    background-color:rgba(0,0,0,0.7);
+    color:greenyellow;
+    font-weight: 700;
+}
+
+.marcador00:last-child{
+    color:red;
+}
+
+
+
+
+
+
+
+
+
 /* ---------- PIEDRAS -----------*/
 
 .flex-25{
     text-align: center;
     width:22%;
     min-height: 6em;
-
 }
+
+#piedra-1:active{
+    box-shadow: -1px 0px 20px #8dffa7;z
+}
+
+#piedra-2:active{
+    box-shadow: -1px 0px 20px #f0a0ff;
+}
+
+#piedra-3:active{
+    box-shadow: -1px 0px 20px #00ffff;
+}
+
+#piedra-4:active{
+    box-shadow: -1px 0px 20px #ffd76b;
+}
+
 
 img{
     width: 100%;
 }
+
+
+
 
 
 
