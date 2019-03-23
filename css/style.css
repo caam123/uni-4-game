@@ -24,8 +24,14 @@ nav{
     width:1.5em;
     height: 1.5em;
     text-align: center;
-
 }
+
+a{
+    color:greenyellow;
+    display:block;
+}
+
+
 
 .container{
     min-height: 90vh;
@@ -156,9 +162,7 @@ img{
 }
 
 
-#outcome{
-    z-index: 9;
-}
+
 
 
 /* --------- MEDIA QUERIES -------- */
