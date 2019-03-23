@@ -68,6 +68,8 @@ function setUp(){
     
     $("#tNumber").text(tNumber);
     $("#aScore").text(aScore);
+    $("#wins").text(wins);
+    $("#losses").text(losses);
     };
     
 function check(){
