@@ -14,12 +14,9 @@ var losses = 0;
 
 
 
-
 //---- Llamada de funciones -----
 
-
 setUp();
-
 
 $("#piedra-1").click(function(){
     if (tNumber>aScore){
@@ -55,8 +52,6 @@ $("#piedra-4").click(function(){
 
 
 
-
-
 //----- Funciones -----
 
 function setUp(){
@@ -81,6 +76,7 @@ function check(){
     if (aScore===tNumber){
         wins++;
         $("#wins").text(wins);
+        $("#aScore").text(aScore);
         clear();
     }
 };
