@@ -70,14 +70,24 @@ function setUp(){
 function check(){
     if (aScore>tNumber){
         losses++;
+        $(".modal-title").text("You lost!")
+        $("#yourScore").text("Your score was " + aScore);
+
+
         $("#losses").text(losses);
-        clear();
+        showModal();
+        $("#play").click(clear);
+        
     };
     if (aScore===tNumber){
         wins++;
+        $(".modal-title").text("You won!")
+        $("#yourScore").text("Your score was " + aScore);
+
         $("#wins").text(wins);
         $("#aScore").text(aScore);
-        clear();
+        showModal();
+        $("#play").click(clear);
     }
 };
 
@@ -86,3 +96,8 @@ function clear(){
     aScore = 0;
     setUp();
 };
+
+function showModal(){
+    $("#modal").modal('show');
+    //$(".close").modal('show');
+}
